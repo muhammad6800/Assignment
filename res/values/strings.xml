@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="enter_you_surname_here">Enter you Surname here</string>
+    <string name="enter_your_first_name">Enter your First Name</string>
+    <string name="enter_you_address_here">Enter_you_Address_here</string>
+
+</resources>

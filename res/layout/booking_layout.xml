@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+	<TextView
+        android:id="@+id/surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Surname" />
+    <EditText
+        android:id="@+id/surnameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" />
+    
+    <TextView 
+        android:id="@+id/firstname"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="First Name" />
+    <EditText 
+        android:id="@+id/firstnameinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" />
+       
+     <TextView 
+         android:id="@+id/address"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Address"
+         />
+     <EditText 
+         android:id="@+id/addressinput"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         
+         android:inputType="textMultiLine"  />
+	
+	<TextView 
+	    android:id="@+id/phone"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Phone No"
+	    
+	    />
+     
+    <EditText
+        android:id="@+id/phoneinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone" />
+
+	<TextView 
+	    android:id="@+id/email"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Email"
+	    />
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress" />
+
+   
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Now"
+        android:id="@+id/book"
+        android:onClick="@+id/book" />
+</LinearLayout>
